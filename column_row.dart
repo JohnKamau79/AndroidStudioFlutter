@@ -16,40 +16,35 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
 
-      body: Row(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
-          Expanded(
-              flex: 1,
-              child: Image.asset('assets/homeImage.avif')
+          Row(
+            children: <Widget>[
+              Text('Helo'),
+              Text("Hello"),
+            ],
           ),
-          Expanded(
-            flex: 2,
-            child: Container(
-              padding: EdgeInsets.all(30),
-              color: Colors.pinkAccent,
-              child: Text('Two'),
-            ),
+          Container(
+            padding: EdgeInsets.all(30),
+            color: Colors.pinkAccent,
+            child: Text('Two'),
           ),
-          Expanded(
-            flex: 1,
-            child: Container(
-              padding: EdgeInsets.all(30),
-              color: Colors.cyan,
-              child: Text('One'),
-            ),
+          Container(
+            padding: EdgeInsets.all(30),
+            color: Colors.cyan,
+            child: Text('One'),
           ),
-          Expanded(
-            flex: 1,
-            child: Container(
-              padding: EdgeInsets.all(30),
-              color: Colors.yellowAccent,
-              child: Text(
-                  'Three',
-                style: TextStyle(
-                  color: Colors.blue,
-                ),
-
+          Container(
+            padding: EdgeInsets.all(30),
+            color: Colors.yellowAccent,
+            child: Text(
+              'Three',
+              style: TextStyle(
+                color: Colors.blue,
               ),
+
             ),
           ),
         ],

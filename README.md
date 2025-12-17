@@ -4,13 +4,26 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Padding, Container, DecoratedBox
+# Old Button	New Button
+# RaisedButton	ElevatedButton
+# FlatButton	TextButton
+# OutlineButton	OutlinedButton
 
-A few resources to get you started if this is your first Flutter project:
+# BUTTON STYLING
+_ ElevatedButton(
+    onPressed: () {},
+    style: ElevatedButton.styleFrom(
+    backgroundColor: Colors.blue, // button color
+    foregroundColor: Colors.white, // text/icon color
+    ),
+    child: Text('Submit'),
+    );
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# FLEX [ROW, COLUMN]
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    crossAxisAlignment: CrossAxisAlignment.end,
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# EXPANDED
+_Adds flex
+_To size out the widgets e.g containers

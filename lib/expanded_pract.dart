@@ -44,7 +44,7 @@ class Home extends StatelessWidget {
               padding: EdgeInsets.all(30),
               color: Colors.yellowAccent,
               child: Text(
-                  'Three',
+                'Three',
                 style: TextStyle(
                   color: Colors.blue,
                 ),
